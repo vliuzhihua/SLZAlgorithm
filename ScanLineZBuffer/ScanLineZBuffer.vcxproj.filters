@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SolidDataStruct">
+      <UniqueIdentifier>{e67655f2-2375-454d-8bc3-0c0a1b2f5254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneDataStruct">
+      <UniqueIdentifier>{a9704e06-94dc-466b-b067-9dfacafe9d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelLoader">
+      <UniqueIdentifier>{84fee450-7f4e-4cab-86cc-2f62c8b5e0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScanAlgorithm">
+      <UniqueIdentifier>{a2c09e0c-f87b-4c77-ae8a-5a85061c5f12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Facet.cpp">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjOperation.cpp">
+      <Filter>Source Files\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\SceneDataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\SceneDataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowObj.cpp">
+      <Filter>Source Files\ScanAlgorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseDataStruct.h">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="DataUtility.h">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Facet.h">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>Source Files\SolidDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjOperation.h">
+      <Filter>Source Files\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanBaseStruct.h">
+      <Filter>Source Files\ScanAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\SceneDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\SceneDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowObj.h">
+      <Filter>Source Files\ScanAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\SceneDataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Source Files\ScanAlgorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

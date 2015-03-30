@@ -1,0 +1,15 @@
+#ignore all *.exe
+*.exe
+#ignore debug directory but not the one in current directory,and ignore all file of debug directory in current path except *.dll 
+debug/
+!/debug/
+/debug/*
+!debug/*dll
+#sdf file
+*.sdf
+*.opensdf
+#pdb file
+*.pdb
+
+
+
